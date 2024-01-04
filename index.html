@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Aloysius</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body class="card-box">
+    <h1>Welcome To Katik</h1>
+    <p>Hai Sobat, Selamat Datang Di Katik:]</p>
+    <p>Website Sederhana yang bertujuan untuk menghitunh Luas dan keliling Segitiga</p>
+    <div id="luas" >
+        <h2>Luas Segitiga</h2>
+        <img src="https://caraharian.com/wp-content/uploads/2020/05/Pengertian-Segitiga.jpg" alt="alternatetext" width="150" height="180" class="center">
+        <p>Rumus Luas Segitiga:</p>
+        <p id="center-text">L = 1/2 x a x t</p>
+        <p>Di mana:</p>
+        <p>L = Luas</p>
+        <p>a = Panjang Alas</p>
+        <p>t = Tinggi</p>
+        <h3>Hitung Luas Segitiga</h3>
+        <input type="number" id="alas" placeholder="Alas"><br><br>
+        <input type="number" id="tinggi" placeholder="Tinggi">
+        <br>
+        <br>
+        <button id="blue-button" onclick="hitungLuas()">Hitung</button>
+        <button id="yellow-button" onclick="resetLuas()">Reset</button>
+        <p id="hasilLuas"></p>
+    </div>
+    <div id="keliling">
+        <h2>Keliling Segitiga</h2>
+        <img src="https://caraharian.com/wp-content/uploads/2020/05/Pengertian-Segitiga.jpg" alt="alternatetext" width="150" height="180" class="center">
+        <p>Rumus Keliling Segitiga:</p>
+        <p id="center-text">K = S1 + S2 +S3</p>
+        <p>Di mana:</p>
+        <p>K = Keliling</p>
+        <p>S1 = sisiA</p>
+        <p>S2 = sisiB</p>
+        <p>S3 = sisiC</p>
+        <h3>Hitung Keliling Segitiga</h3>
+        <input type="number" id="sisiA" placeholder="Sisi A"><br><br>
+        <input type="number" id="sisiB" placeholder="Sisi B"><br><br>
+        <input type="number" id="sisiC" placeholder="Sisi C">
+        <br>
+        <br>
+        <button id="blue-button" onclick="hitungKeliling()">Hitung</button>
+        <button id="yellow-button" onclick="resetKeliling()">Reset</button>
+        <p id="hasilKeliling"></p>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
